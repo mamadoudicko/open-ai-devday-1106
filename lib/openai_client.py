@@ -4,4 +4,3 @@ from openai import OpenAI
 load_dotenv()
 
 openai_client = OpenAI()
-

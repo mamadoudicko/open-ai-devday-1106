@@ -1,5 +1,4 @@
-
-from utils.openai_client import openai_client
+from lib.openai_client import openai_client
 
 # More details https://platform.openai.com/docs/guides/vision/vision
 response = openai_client.chat.completions.create(
@@ -13,7 +12,7 @@ response = openai_client.chat.completions.create(
                     "type": "image_url",
                     "image_url": "https://media.routard.com/image/38/0/pt103731.1312380.w430.jpg",
                 },
-                 {
+                {
                     "type": "image_url",
                     "image_url": "https://avatars.githubusercontent.com/u/63923024?v=4",
                 },
